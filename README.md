@@ -1,10 +1,15 @@
-# Sakurabot
+# Blackstar
+
+![blackstar banner](https://ik.imagekit.io/vmimm0jfp/blackberryhazard/blackstar.png)
+
+Blackstar is a WhatsApp & Telegram bot that runs simultaneously in one process, with the aim of making the two bots integrated with each other. 
 
 <div align="center">
    
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Baileys](https://img.shields.io/badge/@itsliaaa/baileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![Telegraf](https://img.shields.io/badge/telegraf.js-blue?style=for-the-badge&logo=telegram&logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-violet?style=for-the-badge)
 
 [![Stars](https://img.shields.io/github/stars/indra87g/sakurabot?style=for-the-badge)](https://github.com/indra87g/sakurabot/stargazers)
@@ -14,11 +19,6 @@
 [![DeepSource](https://app.deepsource.com/gh/indra87g/sakurabot.svg/?label=active+issues&show_trend=false&token=m7kgoYuFrGoUySJ9diJ7Zwix)](https://app.deepsource.com/gh/indra87g/sakurabot/)
 
 </div>
-
-
-> [!CAUTION]
-This project is a fork of [`@itsliaaa/starseed`](https://github.com/itsliaaa/starseed#readme).
-
 
 ### 📄 System Requirements
 
