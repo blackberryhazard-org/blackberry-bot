@@ -5,7 +5,9 @@ import path from "path";
 // We keep Blackstar imports instead of the payload ones
 import { forceSubscribeMiddleware, roleLimitMiddleware } from "./middleware.js";
 
-const startTelegramBot = async (config) => {
+import config from "../config.js";
+
+const startTelegramBot = async () => {
   if (
     !config.tgbot ||
     !config.tgbot.botfatherToken ||
@@ -20,8 +22,8 @@ const startTelegramBot = async (config) => {
   const bot = new Telegraf(config.tgbot.botfatherToken);
 
   // Setup Database
-  const { Database } = await import("../lib/Database.js");
-  const db = Database();
+  const { TelegramDatabase } = await import("../lib/TelegramDatabase.js");
+  const db = TelegramDatabase();
   await db.readFromFile();
 
   bot.context.db = db;
